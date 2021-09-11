@@ -15,4 +15,4 @@ order: 1
 
 #### You can reach me out on [LinkedIn](https://linkedin.com/in/omarelweshy), [Twitter](https://twitter.com/omarelweshy) or [Facebook](https://facebook.com/iamomarelweshy). You can also find me on [GitHub](https://github.com/omarelweshy), [Stackoverflow](https://stackoverflow.com/users/9917795/omar-elweshy/), [Goodreads](https://www.goodreads.com/omarelweshy) and [ASk.fm for technical Questions](https://ask.fm/OmerEweshi)
 
-#### [Download Resume](../Omar_Elweshy_Reusme.pdf)
+<!-- #### [Download Resume](../Omar_Elweshy_Reusme.pdf) -->
