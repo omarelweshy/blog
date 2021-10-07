@@ -19,7 +19,7 @@ When your OS crashes or you needed to change it, you will reconfigure `.dotfiles
 There are alot of Dotfile Managers out there, for example [atlassian](https://www.atlassian.com/), [yadm](https://yadm.io/) and more [here](https://dotfiles.github.io/utilities/).
 I prefer the scratch way.
 
-First of all, you should [Create a new repository](https://github.com/new) on GitHub named `.dotfiles` and clone it in the $HOME directory where you will host your dotfiles. Clone your repo to the `.dotfiles` folder
+First of all, you should [Create a new repository](https://github.com/new) on GitHub named `.dotfiles` and clone it in the $HOME directory where you will host your dotfiles. Clone your repo to the `.dotfiles` directory
 
 SSH
 
@@ -33,7 +33,7 @@ HTTPS
 git clone https://github.com/<YOUR_GITHUB_USERNAME>/.dotfiles.git ~/.dotfiles
 ```
 
-Now, you have an empty folder. The next step is to add your files in it. Move your files to `~/.dotfiles`.
+Now, you have an empty directory. The next step is to add your files in it. Move your files to `~/.dotfiles`.
 
 ![Dotfiles Dir](/media/dotfiles_dir.png)
 
@@ -47,7 +47,7 @@ mv .tmux.conf .dotfiles/
 
 ![mv](/media/mv.png)
 
-With `ll -al ~/.dotfiles | grep tmux` command we search for any files or folders contain tmux name in `~/.dtofiles` and not found . After run `mv .tmux.conf .dotfiles` and search again `.tmux.conf` file moved to `.dotfiles` folder successfully.
+With the command `ll -al ~/.dotfiles | grep tmux` we search for any files or directories contains tmux name in `~/.dtofiles` but not found. After run `mv .tmux.conf .dotfiles` and search again `.tmux.conf` file moved to `.dotfiles` directory successfully.
 
 #### **BUT**
 
@@ -66,7 +66,7 @@ With the command above we created a copy of the `.tmux.conf` file to the $HOME d
 Everything is ready. By opening `~/dotfiles/.tmux.conf` and `~/.tmux.conf` side-by-side, every editing happens to any of two files, it happens to another.
 
 ![Tracking](/media/tracking.gif)
-we have a file that configures tmux and tracked by git into your `.dotfiles` github repo.
+we have a file that configures tmux and same file tracked by git into your `.dotfiles` github repo.
 
 Finally go to `~/.dotfiles` and push to Github.
 
