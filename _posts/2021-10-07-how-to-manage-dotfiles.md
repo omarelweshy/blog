@@ -12,7 +12,7 @@ image:
 
 ## Introduction
 
-When your OS crashes or you needed to change it, you will reconfigure `.dotfiles` such as `.zsh`, `.gitconfig` and `.vimrc`. These `.dotfiles` change over time as you start customizing linux according to your needs. How do we save this configurations to avoid manual work every time ? The answer is **Dotfiles Manager**
+When your OS crashes or you needed to change it, you will reconfigure `.dotfiles` such as `.zsh`, `.gitconfig` and `.vimrc`. These `.dotfiles` change over time as you start customizing linux according to your needs. How do we save this configurations to avoid manual work every time ? The answer is **Dotfiles Manager**.
 
 ## How to build a Dotfile Manager
 
