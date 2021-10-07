@@ -22,9 +22,7 @@ title: Omar Elweshy # the main title
 tagline: Software Engineer # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A minimal, portfolio, sidebar,
-  bootstrap Jekyll theme with responsive web design
-  and focuses on text presentation.
+  Graduated from the Higher Institute of Management and Information Technology. Skilled in Back-end Development, familiar with Java, Python, JavaScript, Django Framework, Node.js, relational and non-relational databases such as MySQL and MongoDB, RESTful API and Docker.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://omarelweshy.github.io"
@@ -42,8 +40,8 @@ social:
   email: omarelweshy@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
+    # - https://twitter.com/username # change to your twitter homepage
+    # - https://github.com/username # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
