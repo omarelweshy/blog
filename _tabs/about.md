@@ -5,7 +5,7 @@ icon: fas fa-info
 order: 1
 ---
 
-### _"Fresh graduate from Higher Institute of Management and Information Technology ( Very Good ). Skilled in Back-end Development, quick learner, Proficient in a range of modern technologies including Python, Java, JavaScript and Docker. Seeking a Software Engineer role."_
+### _"Fresh graduate from Higher Institute of Management and Information Technology ( Very Good ). Skilled in Back-end Development, quick learner, Proficient in a range of modern technologies including Python, Java, JavaScript and Docker."_
 
 ### **CONTACT**
 
