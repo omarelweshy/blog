@@ -91,10 +91,44 @@ the result
 
 ![Docker Creation](/media/docker-images.png)
 
-Now you can check your browser should be serve your images with spicified ports correctly
+Now if you checked your browser for every port should be serve your images with spicified ports correctly. for example port 3001
 
 ![Docker id browser](/media/docker-id-browser.png)
 
+and so on.
+
 ## Setting Nginx Up
 
+After Installing Nginx to your machine, we will work with `/etc/nginx/nginx.conf`. Copy code below to your `nginx.conf` file
 
+```bash
+http {
+    upstream containers {
+        server 127.0.0.1:3001;
+        server 127.0.0.1:3002;
+        server 127.0.0.1:3003;
+        server 127.0.0.1:3004;
+        server 127.0.0.1:3005;
+    }
+    server {
+        listen 80;
+        location / {
+            proxy_pass http://containers/;
+        }
+    }
+}
+
+events {}
+```
+
+Now we Created upstream called containers to serve all our backend and we also created server listen to port `80` and proxy_pass to our containers upstream.
+
+If we visit `localhost` we should see nginx balancing and switching between created containters.
+
+![balancer on browser](/media/balancer.gif)
+
+You can notice that it serve in sequential order that is because nginx uses [Round Robin Algorithm](https://en.wikipedia.org/wiki/Round-robin_scheduling)
+
+## Conclusion
+
+In conclusion, creating a load balancer with Docker and NGINX is a powerful way to ensure the availability and performance of your web application. By distributing incoming traffic evenly across multiple servers, a load balancer can maximize performance and minimize downtime.
