@@ -12,7 +12,7 @@ image:
 
 ## Introduction
 
-In today's fast-paced digital world, it's crucial to ensure that your web applications are always available and can handle high traffic. That's where a load balancer comes in - it distributes incoming traffic evenly across multiple servers, maximizing performance and minimizing downtime.
+It's crucial to ensure that your web applications are always available and can handle high traffic. That's where a load balancer comes in - it distributes incoming traffic evenly across multiple servers, maximizing performance and minimizing downtime.
 
 But setting up a load balancer can be a daunting task, especially for those who are new to the world of web development. That's why we've created this guide - to walk you through the process of creating a load balancer using Docker and NGINX. These tools are powerful, flexible and easy to use, making them the perfect choice for load balancing.
 
